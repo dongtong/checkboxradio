@@ -13,7 +13,7 @@ ul, li{
 	padding-left: 0;
 }
 .icon-check {
-	background-image: url('data:image/svg+xml;charset=US-ASCII,<svg%20xmlns%3D"http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg"%20width%3D"18.134"%20height%3D"15.066"><polygon%20fill%3D"%23fff"%20points%3D"18.134%2C3.119%2015.013%2C0%206.187%2C8.827%203.12%2C5.76%200%2C8.878%206.185%2C15.066%206.187%2C15.064%206.187%2C15.066"%2F><%2Fsvg>');
+	background-image: url('data:image/svg+xml;charset=US-ASCII,<svg xmlns="http://www.w3.org/2000/svg" width="18.134" height="15.066"><polygon fill="green" points="18.134,3.119 15.013,0 6.187,8.827 3.12,5.76 0,8.878 6.185,15.066 6.187,15.064 6.187,15.066"/></svg>');
 	background-repeat: no-repeat;
 }
 
@@ -112,7 +112,8 @@ ul, li{
 	display: block;
 	content: " ";
 	position: absolute;
-	background-color: #C5C7C8;
+	background-color: #fff;
+	border: 2px solid #ccc;
 	background-position: center;
 	left: 0;
 /*	@include globalShadow; */
@@ -148,7 +149,8 @@ ul, li{
 }
 
 .checkbox.checked .label-text .icon-check {
-	background-color: #4D4D4D;
+	background-color: #fff;
+	border: 2px solid #ccc;
 }
 
 label.radiobutton .label-text img {
